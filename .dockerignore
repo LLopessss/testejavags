@@ -1,5 +1,11 @@
-*
-!target/*-runner
-!target/*-runner.jar
-!target/lib/*
-!target/quarkus-app/*
+# Ignora a pasta de saída do build
+target/
+
+# Ignora as pastas de IDE e do SCM (Git)
+.idea/
+.vscode/
+.git/
+
+# Ignora o histórico de comando e a pasta de teste (se não precisar)
+nohup.out
+test.log
